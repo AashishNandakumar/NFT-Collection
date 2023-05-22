@@ -1,10 +1,10 @@
+"use client";
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { Contract, ethers, providers, utils } from "ethers";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
-import Link from "next/link";
 
 export default function main() {
   // To check if the users wallet is connected or not:
