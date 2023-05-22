@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
 
-export default function main() {
+export default function Home() {
   // To check if the users wallet is connected or not:
   const [walletConnected, setWalletConnected] = useState(false);
   // To check if the presale started:
