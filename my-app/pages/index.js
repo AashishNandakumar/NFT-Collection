@@ -310,6 +310,7 @@ export default function Home() {
           <div className={styles.description}>
             An Amazing NFT collection for developers in Crypto
           </div>
+          <br />
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted!
           </div>
